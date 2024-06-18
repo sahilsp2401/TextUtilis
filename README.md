@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# TextUtilis
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TextUtilis is a React-based web application designed to help you manipulate text easily. It offers features like changing text case, copying text, reversing text, removing extra spaces, clearing text, and a mode switch between light and dark themes. Additionally, it provides a summary of the text including word and character counts.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Uppercase Conversion**: Convert your text to uppercase.
+- **Lowercase Conversion**: Convert your text to lowercase.
+- **Copy Text**: Copy the text to your clipboard.
+- **Reverse Text**: Reverse the order of characters in the text.
+- **Remove Extra Spaces**: Trim multiple spaces down to a single space.
+- **Clear Text**: Clear the text from the input box.
+- **Light/Dark Mode**: Toggle between light and dark themes for better user experience.
+- **Text Summary**: Display the number of words and characters in the text.
 
-### `npm start`
+### Steps
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the repository**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   git clone https://github.com/sahilsp2401/TextUtilis.git
+   cd TextUtilis
 
-### `npm test`
+2. npm install
+# or if you're using Yarn
+yarn install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. npm start
+# or if you're using Yarn
+yarn start
 
-### `npm run build`
+### Usage
+1. Enter text: Type or paste your text into the input box.
+2. Choose an operation: Click on the buttons to perform text manipulations:
+    Uppercase
+    Lowercase
+    Copy Text
+    Reverse Text
+    Remove Extra Spaces
+3. Clear Text
+4. View text summary: Check the number of words and characters in the summary section.
+5. Toggle theme: Use the switch to toggle between light and dark modes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Contributing
+Contributions are welcome! Please fork the repository, create a new branch, commit your changes, and open a pull request.
