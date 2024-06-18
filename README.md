@@ -22,11 +22,11 @@ TextUtilis is a React-based web application designed to help you manipulate text
    cd TextUtilis
 
 2. npm install
-# or if you're using Yarn
+or if you're using Yarn
 yarn install
 
 3. npm start
-# or if you're using Yarn
+or if you're using Yarn
 yarn start
 
 ### Usage
